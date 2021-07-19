@@ -26,3 +26,4 @@ spec:
         kubernetes.io/ingress.class: nginx
     hpa:
       enabled: true
+      maxReplicas: 6
