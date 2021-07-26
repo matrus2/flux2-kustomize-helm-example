@@ -2,6 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - ../base/podinfo
-  - ../base/simple-deploy
+  - ../base/simple
 patchesStrategicMerge:
   - podinfo-values.yaml

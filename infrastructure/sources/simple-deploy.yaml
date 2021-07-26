@@ -1,9 +1,9 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
-  name: simple-deploy
+  name: simple
 spec:
   interval: 2m
-  url: http://acrbogusz.azurecr.io/helm/simple-deploy
+  url: http://acrbogusz.azurecr.io
   secretRef:
     name: acrcreds
