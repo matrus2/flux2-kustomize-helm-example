@@ -16,6 +16,6 @@ spec:
   interval: 2m
   install:
     remediation:
-      retries: 3
+      retries: 30
   values:
     replicaCount: 1
