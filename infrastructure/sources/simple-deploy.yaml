@@ -4,6 +4,6 @@ metadata:
   name: simple
 spec:
   interval: 2m
-  url: http://acrbogusz.azurecr.io/simple-deploy
+  url: http://acrbogusz.azurecr.io/helm
   secretRef:
     name: acrcreds
